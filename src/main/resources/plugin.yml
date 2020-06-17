@@ -1,0 +1,5 @@
+name: LaunchPads
+version: ${project.version}
+main: com.jump.JumpMain
+api-version: 1.13
+authors: [ItsAZZA]
