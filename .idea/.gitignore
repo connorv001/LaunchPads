@@ -1,3 +1,4 @@
+target/
 /shelf/
 /workspace.xml
 .idea/
@@ -7,4 +8,3 @@ bin/
 out/
 .build/
 generated/
-/target/
