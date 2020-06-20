@@ -15,7 +15,7 @@ public class LaunchPadsCommand implements CommandExecutor {
         Player player = (Player) sender;
 
         if(!player.hasPermission("launchpads.command")) {
-            player.sendMessage("§cNo permission: launchpads.command");
+            player.sendMessage("§cCmon Tillmeh!");
             return false;
         }
 
@@ -83,8 +83,8 @@ public class LaunchPadsCommand implements CommandExecutor {
     }
 
     private void sendUsage (Player player) {
-        player.sendMessage("§ePossible subcommands:\n" +
-                "§f- /launchpads reload : Reload the config\n" +
+        player.sendMessage("§ePossible TillMehs:\n" +
+                "§f- /launchpads reload : Reload the config lalal tillmeh\n" +
                 "§f- /launchpads sound <sound> [volume=1.0] [pitch=1.0] : Change the sound\n" +
                 "§f- /launchpads togglesound : Toggle the sound");
     }
